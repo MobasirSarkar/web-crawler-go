@@ -1,8 +1,7 @@
 package main
 
-import "fmt"
+import webcrawler "github.com/MobasirSarkar/web-crawler-go/web-crawler"
 
-
-func main(){
-   fmt.Print(`Hello Gophers `)
+func main() {
+	webcrawler.WebCrawler()
 }
